@@ -35,12 +35,12 @@
 - (IBAction)valueChanged:(UISlider *)sender {
     [self cacTip:self.sliderPercent.value:self.purchaseAmount];
     float value = [sender value];
-    self.plab.text = [NSString stringWithFormat:@"%.2f%%",value];
+    self.plab.text = [NSString stringWithFormat:@"%.0f%%",value];
     int tip=[self cacTip:self.sliderPercent.value :_purchaseAmount];
     self.tipAmount.text=[NSString stringWithFormat:@"%d",tip];
 }
 - (int) cacTip:(float) pur: (int) pamount{
-    return pur * pamount;
+    return pur * pamount/100;
 }
 
 

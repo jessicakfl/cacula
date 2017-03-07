@@ -23,19 +23,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Purchase Amount:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jb4-gD-8Ee">
-                                <rect key="frame" x="36" y="209.5" width="294" height="26.5"/>
+                                <rect key="frame" x="36" y="195.5" width="294" height="26.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="o9C-sA-ZLX">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="50.5" minValue="0.5" maxValue="100.5" translatesAutoresizingMaskIntoConstraints="NO" id="o9C-sA-ZLX">
                                 <rect key="frame" x="124" y="318" width="126" height="31"/>
                                 <connections>
                                     <action selector="valueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="xPY-Hi-2mL"/>
                                 </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="dollars" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iAG-1A-Avh">
-                                <rect key="frame" x="280" y="271" width="59" height="21"/>
+                                <rect key="frame" x="280" y="257" width="59" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="59" id="UUT-2A-ncv"/>
                                 </constraints>
@@ -50,7 +50,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HSu-Id-hHQ">
-                                <rect key="frame" x="119" y="262" width="136" height="30"/>
+                                <rect key="frame" x="119" y="248" width="136" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -80,7 +80,7 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ZYh-sr-s4I" secondAttribute="bottom" constant="168" id="JSR-lB-QIB"/>
                             <constraint firstItem="o9C-sA-ZLX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="110" id="OzZ-hf-20a"/>
                             <constraint firstItem="HSu-Id-hHQ" firstAttribute="bottom" secondItem="iAG-1A-Avh" secondAttribute="bottom" id="Plf-e1-U1C"/>
-                            <constraint firstItem="Wjh-Co-Tmv" firstAttribute="top" secondItem="o9C-sA-ZLX" secondAttribute="bottom" constant="34" id="ehn-ER-wPw"/>
+                            <constraint firstItem="Wjh-Co-Tmv" firstAttribute="top" secondItem="o9C-sA-ZLX" secondAttribute="bottom" constant="20" id="ehn-ER-wPw"/>
                             <constraint firstAttribute="trailingMargin" secondItem="iAG-1A-Avh" secondAttribute="trailing" constant="20" id="ftr-wb-nEF"/>
                             <constraint firstItem="HSu-Id-hHQ" firstAttribute="centerX" secondItem="ZYh-sr-s4I" secondAttribute="centerX" id="gSz-s6-XBv"/>
                             <constraint firstItem="o9C-sA-ZLX" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="h45-O7-w5U"/>

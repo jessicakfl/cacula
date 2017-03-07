@@ -17,11 +17,10 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *plab;
 @property (nonatomic) int purchaseAmount;
-- (IBAction)valueChanged:(UISlider *)sender;
 @property (weak, nonatomic) IBOutlet UILabel *tipAmount;
+- (IBAction)valueChanged:(UISlider *)sender;
 - (IBAction)purchaseChange:(UITextField *)sender;
 - (int) cacTip:(float) pur: (int) pamount;
-
 
 @end
 
