@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		781A89681E6F2FC100D8BDF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 781A89671E6F2FC100D8BDF6 /* ViewController.m */; };
 		781D297F1E6A748700617592 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 781D297E1E6A748700617592 /* main.m */; };
 		781D29821E6A748700617592 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 781D29811E6A748700617592 /* AppDelegate.m */; };
-		781D29851E6A748700617592 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 781D29841E6A748700617592 /* ViewController.m */; };
 		781D29881E6A748700617592 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 781D29861E6A748700617592 /* Main.storyboard */; };
 		781D298A1E6A748700617592 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 781D29891E6A748700617592 /* Assets.xcassets */; };
 		781D298D1E6A748700617592 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 781D298B1E6A748700617592 /* LaunchScreen.storyboard */; };
@@ -35,12 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		781A89671E6F2FC100D8BDF6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		781D297A1E6A748700617592 /* TipCac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		781D297E1E6A748700617592 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		781D29801E6A748700617592 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		781D29811E6A748700617592 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		781D29831E6A748700617592 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		781D29841E6A748700617592 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		781D29871E6A748700617592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		781D29891E6A748700617592 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		781D298C1E6A748700617592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -103,7 +103,6 @@
 			children = (
 				781D29B01E6A751400617592 /* model */,
 				781D29831E6A748700617592 /* ViewController.h */,
-				781D29841E6A748700617592 /* ViewController.m */,
 				781D29861E6A748700617592 /* Main.storyboard */,
 				781D29891E6A748700617592 /* Assets.xcassets */,
 				781D298B1E6A748700617592 /* LaunchScreen.storyboard */,
@@ -144,6 +143,7 @@
 		781D29B01E6A751400617592 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				781A89671E6F2FC100D8BDF6 /* ViewController.m */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -282,7 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				781D29851E6A748700617592 /* ViewController.m in Sources */,
+				781A89681E6F2FC100D8BDF6 /* ViewController.m in Sources */,
 				781D29821E6A748700617592 /* AppDelegate.m in Sources */,
 				781D297F1E6A748700617592 /* main.m in Sources */,
 			);
@@ -516,6 +516,7 @@
 				781D29A91E6A748700617592 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		781D29AA1E6A748700617592 /* Build configuration list for PBXNativeTarget "TipCacTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +525,7 @@
 				781D29AC1E6A748700617592 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		781D29AD1E6A748700617592 /* Build configuration list for PBXNativeTarget "TipCacUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +534,7 @@
 				781D29AF1E6A748700617592 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
