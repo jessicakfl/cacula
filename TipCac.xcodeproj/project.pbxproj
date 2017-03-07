@@ -101,8 +101,7 @@
 		781D297C1E6A748700617592 /* TipCac */ = {
 			isa = PBXGroup;
 			children = (
-				781D29801E6A748700617592 /* AppDelegate.h */,
-				781D29811E6A748700617592 /* AppDelegate.m */,
+				781D29B01E6A751400617592 /* model */,
 				781D29831E6A748700617592 /* ViewController.h */,
 				781D29841E6A748700617592 /* ViewController.m */,
 				781D29861E6A748700617592 /* Main.storyboard */,
@@ -117,6 +116,8 @@
 		781D297D1E6A748700617592 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				781D29811E6A748700617592 /* AppDelegate.m */,
+				781D29801E6A748700617592 /* AppDelegate.h */,
 				781D297E1E6A748700617592 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +139,13 @@
 				781D29A41E6A748700617592 /* Info.plist */,
 			);
 			path = TipCacUITests;
+			sourceTree = "<group>";
+		};
+		781D29B01E6A751400617592 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +215,7 @@
 				TargetAttributes = {
 					781D29791E6A748700617592 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7MN5YESSBS;
 						ProvisioningStyle = Automatic;
 					};
 					781D29921E6A748700617592 = {
@@ -422,6 +431,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7MN5YESSBS;
 				INFOPLIST_FILE = TipCac/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fountain.TipCac;
@@ -433,6 +443,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7MN5YESSBS;
 				INFOPLIST_FILE = TipCac/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fountain.TipCac;
