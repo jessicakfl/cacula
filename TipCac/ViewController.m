@@ -17,8 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [_purchaseAmond addTarget:self action:@selector(purchaseChange:) forControlEvents:UIControlEventEditingChanged];
-
-
 }
 
 
@@ -26,7 +24,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 
 - (IBAction)purchaseChange:(UITextField *)sender {
     NSString *amount =[sender text];
