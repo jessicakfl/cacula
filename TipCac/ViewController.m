@@ -28,8 +28,8 @@
 - (IBAction)purchaseChange:(UITextField *)sender {
     NSString *amount =[sender text];
     self.purchaseAmount=[amount intValue];
-    [self cacTip:self.sliderPercent.value :_purchaseAmount];
-    self.tipAmount.text=[NSString stringWithFormat:@"%d",self.cacutlatedTipAmount];
+    int tip=[self cacTip:self.sliderPercent.value :_purchaseAmount];
+    self.tipAmount.text=[NSString stringWithFormat:@"%d",tip];
     [self.view endEditing:YES];
 }
 - (IBAction)valueChanged:(UISlider *)sender {
